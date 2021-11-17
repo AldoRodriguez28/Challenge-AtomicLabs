@@ -1,0 +1,162 @@
+.service-container::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-image: url("../assets/Mask\ Group\ 1@2x.png");
+  /* transform: rotate(180deg); */
+  background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  filter: brightness(150%);
+}
+.service-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-header {
+  font-family: "montserrat";
+  color: #fff;
+  text-align: center;
+  font-size: 34px;
+}
+.header-h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-top: 16px;
+}
+.service-header span {
+  color: #f44611;
+}
+.service-body {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 5px;
+}
+.card1 {
+  height: 400px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  /* box-shadow: 0 0 10px 1px #d0d0d0; */
+  grid-column-start: 1;
+  place-self: center;
+  align-content: center;
+}
+.card1 ul {
+  letter-spacing: 2px;
+}
+.card1 ul li {
+  margin-bottom: 3px;
+}
+.card1 img {
+  place-self: center;
+}
+.card1 h1 {
+  margin: 0;
+  color: #f44611;
+  place-self: center;
+  font-weight: 900;
+}
+.card1 ul li span {
+  font-weight: bold;
+}
+
+.card2 {
+  font-family: "Montserrat";
+  background-color: #f44611;
+  color: #fff;
+  height: 500px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  cursor: pointer;
+  grid-column-start: 2;
+  place-self: center;
+  z-index: 999;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.19), 0 20px 20px rgba(0, 0, 0, 0.23);
+  align-content: center;
+}
+.card2 ul {
+  font-size: 26px;
+}
+.ul-card2 {
+  font-size: 24;
+}
+.card2 img {
+  place-self: center;
+}
+.card2 h1 {
+  margin: 0;
+  place-self: center;
+  font-weight: 900;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.19);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card2 ul li span {
+  font-weight: bold;
+}
+.guion-blanco {
+  width: 30%;
+}
+.card3 {
+  height: 400px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 16px;
+  cursor: pointer;
+  grid-column-start: 3;
+  place-self: center;
+  align-content: center;
+}
+.card3 ul {
+  letter-spacing: 2px;
+}
+/* .card3 ul li:before {
+  content: "•";
+  font-size: 240%;
+  padding-right: 5px;
+} */
+.card3 ul li {
+  margin-bottom: 3px;
+}
+.card3 img {
+  place-self: center;
+}
+.card-guion {
+  width: 33%;
+  place-self: stretch;
+}
+.card3 h1 {
+  margin: 0;
+  color: #f44611;
+  place-self: center;
+  font-weight: 900;
+}
+.card3 ul li span {
+  font-weight: bold;
+}

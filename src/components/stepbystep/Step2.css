@@ -1,0 +1,277 @@
+body,
+html {
+  font-family: "Montserrat";
+  height: 100%;
+}
+p {
+  font-weight: 600;
+}
+img  {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+progress {
+  width: 100%;
+}
+.progress-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: end;
+}
+progress[value] {
+  margin-bottom: 24px;
+  /* Elimino la apariencia por defecto */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Quito el borde que aparece en Firefox */
+  border: 0;
+
+  /*  Estos estilos solo se aplicaran al fondo de la barra en mozilla */
+  background-color: #d8d8d8;
+  border-radius: 20px;
+}
+progress::-webkit-progress-value {
+  background: #f44611;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+}
+.progress-grid img {
+  filter: grayscale(100%);
+
+  margin-bottom: 10px;
+}
+.progress-grid img:first-child {
+  filter: grayscale(0%);
+}
+.progress-grid img:nth-child(2) {
+  filter: grayscale(0%);
+}
+.regresar {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: none;
+}
+.layout2-padre {
+  display: grid;
+  justify-content: center;
+  place-self: center;
+  position: absolute;
+  top: 44px;
+}
+.step2-layout {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.step2-container nav {
+  justify-self: left;
+}
+.step2-container::before {
+  filter: brightness(150%);
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-image: url("../../assets/MaskGroup1.png");
+  background-position: center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+.step-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.step2-astronaut {
+  justify-self: center;
+}
+.step2-astronaut img {
+  top: -112px;
+  position: relative;
+  left: -13px;
+  right: 0;
+}
+.step2-text {
+  width: 100%;
+  text-align: initial;
+  display: block;
+  top: 10px;
+  margin-top: 10%;
+  /* display: grid;
+  place-content: center; */
+  color: #fff;
+  /* text-align: left;
+  justify-content: start; */
+}
+.step2-text h1 {
+  font-size: 45px;
+  margin: 0;
+  line-height: 70px;
+}
+.step22-p {
+  font-weight: normal;
+  margin-top: 0;
+}
+.child-1 {
+  font-size: 105%;
+  line-height: 0px;
+}
+.child-2 {
+  font-size: 105%;
+  line-height: 0px;
+}
+.child-3 {
+  font-size: 88%;
+  line-height: 0px;
+}
+.child-4 {
+  font-size: 127%;
+  line-height: 0px;
+}
+.child-4 a {
+  font-size: 40%;
+}
+.step2-text span {
+  color: #f44611;
+}
+.step2-btns {
+  position: absolute;
+  /* top: 100%;
+  left: 50%; */
+  text-align: center;
+  cursor: pointer;
+  top: 70%;
+  left: 50%;
+}
+.step21-h1 {
+  display: flex;
+  align-items: center;
+}
+.step21-h1 h1 {
+  font-size: 36px;
+  margin-left: 20px;
+}
+.step21-h1 img {
+  height: 50px;
+}
+.btn-pelota {
+  display: grid;
+  place-self: center;
+  justify-items: center;
+  cursor: pointer;
+}
+.btn-pelota svg {
+  color: grey !important;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 50%;
+}
+.svg-inline--fa {
+  color: grey;
+}
+
+.step2-btns button {
+  background: #f44611;
+  text-decoration: none;
+  border-radius: 19px;
+  border: 0;
+  padding: 10, 20, 10, 20;
+  color: #fff;
+  font-weight: 550;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.btn-p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.step2-header {
+  display: flex !important;
+}
+.step2-inputs {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  border: 0 !important;
+}
+.icon {
+  color: grey;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.left-addon .glyphicon {
+  left: 0px;
+}
+.right-addon .glyphicon {
+  right: 0px;
+}
+.left-addon input {
+  padding-left: 30px;
+}
+.right-addon input {
+  padding-right: 30px;
+  height: 18px;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  top: 60%;
+  left: 52%;
+}
+
+.input-field {
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+.input-icons p {
+  margin-bottom: 8px;
+}
+.step2-p {
+  font-size: 20px;
+}

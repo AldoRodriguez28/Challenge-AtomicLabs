@@ -1,0 +1,65 @@
+.progress-grid img:nth-child(4) {
+  filter: grayscale(0%);
+}
+
+.step4-astronaut img {
+}
+button:disabled {
+}
+.icon4 {
+  position: absolute;
+  right: 24px;
+  top: 11px;
+  color: #fff;
+}
+.step4-p {
+  font-size: 19px;
+  margin-bottom: 68px;
+}
+.step4-p a {
+  cursor: pointer;
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  font-size: 12px;
+}
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="checkbox"] + span {
+  font: 12pt sans-serif;
+  color: #fff;
+}
+input[type="checkbox"] + span:before {
+  font: 16pt FontAwesome;
+  content: "\f14a";
+  display: inline-block;
+  width: 16pt;
+  padding: 2px 0 0 3px;
+  margin-right: 0.5em;
+}
+input[type="checkbox"]:checked + span:before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f14a";
+  color: #f44611;
+  font-style: solid;
+}
+/* contorno de enfoque */
+input[type="checkbox"]:focus + span:before {
+  outline: 1px dotted #aaa;
+}
+input[type="checkbox"]:disabled + span {
+  color: #999;
+}
+input[type="checkbox"]:not(:disabled) + span:hover:before {
+  text-shadow: 0 1px 2px #77f;
+}
+.checkbox4 {
+  color: #fff;
+}

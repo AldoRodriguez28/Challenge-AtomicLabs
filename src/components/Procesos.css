@@ -1,0 +1,109 @@
+.procesos-container::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-image: url("../assets/Mask\ Group\ 1@2x.png");
+  transform: rotate(180deg);
+  background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  filter: brightness(150%);
+}
+.proceso-img {
+  display: grid;
+}
+.proceso-img img {
+  max-width: 94%;
+  place-self: center;
+}
+.procesos-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.procesos-header {
+  font-family: "montserrat";
+  color: #fff;
+  text-align: center;
+  font-size: 34px;
+}
+.procesos-header h1 {
+  font-size: 41px;
+}
+.procesos-header span {
+  color: #f44611;
+}
+
+.procesos-footer {
+  display: grid;
+  grid-column: 1fr 1fr 1fr 1fr 1fr;
+  place-content: center;
+  align-items: center;
+  column-gap: 80px;
+  text-align: center;
+}
+.procesos-footer p {
+  color: #fff;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 0;
+}
+.uno {
+  grid-column-start: 1;
+  letter-spacing: 2px;
+}
+.dos {
+  grid-column-start: 2;
+}
+svg:not(:root).svg-inline--fa {
+  font-size: 20px;
+  color: #f44611;
+}
+.tres {
+  grid-column-start: 3;
+  letter-spacing: 2px;
+}
+.cuatro {
+  grid-column-start: 4;
+}
+.cinco {
+  letter-spacing: 2px;
+  grid-column-start: 5;
+}
+.seis {
+  grid-column-start: 6;
+}
+.siete {
+  letter-spacing: 2px;
+  grid-column-start: 7;
+}
+
+.hero-btns button {
+  background: #fff;
+  text-decoration: none;
+  border-radius: 19px;
+  border: 0;
+  padding: 10, 20, 10, 20;
+  color: royalblue;
+  font-weight: 550;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 24px;
+}

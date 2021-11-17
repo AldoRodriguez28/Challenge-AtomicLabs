@@ -1,0 +1,24 @@
+.stepFinal-text {
+  width: 100%;
+  text-align: initial;
+  display: block;
+  margin-top: 29%;
+  color: #fff;
+}
+
+.stepFinal {
+  line-height: 10px;
+}
+.stepFinal-a {
+  cursor: none;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  font-size: 20 px;
+}
+.stepFinal-h1 h1 {
+  line-height: 37px;
+  font-weight: 800;
+}
+.finalStep-text {
+  margin-top: 28%;
+}

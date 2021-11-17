@@ -1,0 +1,140 @@
+body,
+html {
+  height: 100%;
+}
+img  {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.layout-padre {
+  display: grid;
+  justify-content: center;
+  place-self: center;
+}
+.hero-layout {
+  text-align: center;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+.hero-container nav {
+  justify-self: left;
+}
+.hero-container::before {
+  filter: brightness(150%);
+
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  background-image: url("../assets/MaskGroup1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.hero-astronaut {
+  justify-self: end;
+}
+.hero-astronaut img {
+  width: 30rem;
+  padding-left: 2rem;
+}
+.hero-text {
+  display: grid;
+  place-content: center;
+  color: #fff;
+  text-align: justify;
+  align-content: space-evenly;
+}
+.hero-text h1 {
+  font-size: 65px;
+  margin: 0;
+  line-height: 70px;
+}
+.child-1 {
+  font-size: 105%;
+  line-height: 0px;
+}
+.child-2 {
+  font-size: 105%;
+  line-height: 0px;
+}
+.child-3 {
+  font-size: 88%;
+  line-height: 0px;
+}
+.child-4 {
+  font-size: 127%;
+  line-height: 0px;
+}
+.child-4 a {
+  font-size: 40%;
+}
+.hero-text span {
+  color: #f44611;
+}
+.hero-btns {
+  text-align: center;
+  cursor: pointer;
+}
+.btn-pelota {
+  display: grid;
+  place-self: center;
+  justify-items: center;
+  cursor: pointer;
+}
+.btn-pelota svg {
+  color: grey !important;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 50%;
+}
+.svg-inline--fa {
+  color: grey;
+}
+
+.hero-btns button {
+  background: #fff;
+  text-decoration: none;
+  border-radius: 19px;
+  border: 0;
+  padding: 10, 20, 10, 20;
+  color: royalblue;
+  font-weight: 550;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.btn-p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.progress-grid img:nth-child(3) {
+  filter: grayscale(0%);
+}
+.reenviar-codigo span {
+  font-weight: 700;
+  color: #fff;
+}
+button:disabled {
+  background: #dddddd;
+}
