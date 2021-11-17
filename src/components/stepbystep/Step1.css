@@ -16,6 +16,9 @@ img  {
 progress {
   width: 100%;
 }
+.navbar-link {
+  text-decoration: none;
+}
 .progress-grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;

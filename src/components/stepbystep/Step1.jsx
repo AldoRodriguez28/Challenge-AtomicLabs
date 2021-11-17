@@ -47,7 +47,7 @@ function Step1() {
 
   return (
     <div className="step-container">
-      <Link to="/">
+      <Link className="navbar-link" to="/">
         <NavBar />
       </Link>
       <div className="layout-padre">

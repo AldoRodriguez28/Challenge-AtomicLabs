@@ -10,7 +10,7 @@ import ScrollIntoView from "react-scroll-into-view";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <Link to="/">
+      <Link className="navbar-link" to="/">
         <NavBar />
       </Link>
       <div className="layout-padre">

@@ -21,6 +21,9 @@ img  {
   grid-template-columns: 50% 50%;
   gap: 20px;
 }
+.navbar-link {
+  text-decoration: none;
+}
 .hero-container nav {
   justify-self: left;
 }
