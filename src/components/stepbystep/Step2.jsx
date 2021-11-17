@@ -81,7 +81,7 @@ function Step2() {
                 </p>
               </div>
               <div className="step21-body ">
-                <div class="input-icons inner-addon right-addon">
+                <div className="input-icons inner-addon right-addon">
                   <p>Numero de Celular</p>
 
                   <input
@@ -89,7 +89,7 @@ function Step2() {
                     onChange={handleChange}
                     type="number"
                     name="Telefono"
-                    class="step2-inputs input-field"
+                    className="step2-inputs input-field"
                     placeholder=""
                   />
                 </div>

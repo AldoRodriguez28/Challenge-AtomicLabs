@@ -85,18 +85,18 @@ function Step1() {
                     onChange={handleChange}
                     type="text"
                     name="Nombre"
-                    class="step-inputs input-field"
+                    className="step-inputs input-field"
                     placeholder=""
                   />
                 </div>
-                <div class="input-icons inner-addon right-addon">
+                <div className="input-icons inner-addon right-addon">
                   <p>Apellidos</p>
                   <i class="icon fas fa-lock"></i>
                   <input
                     onChange={handleChange}
                     type="text"
                     name="Apellidos"
-                    class="step-inputs input-field"
+                    className="step-inputs input-field"
                     placeholder=""
                     required
                   />

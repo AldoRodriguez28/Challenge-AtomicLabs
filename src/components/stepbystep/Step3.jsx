@@ -77,7 +77,7 @@ function Step3() {
                 </p>
               </div>
               <div className="step21-body ">
-                <div class="input-icons inner-addon right-addon">
+                <div className="input-icons inner-addon right-addon">
                   <p>Codigo de Verificacion</p>
 
                   <input
@@ -85,7 +85,7 @@ function Step3() {
                     onChange={handleChange}
                     type="text"
                     name="Telefono"
-                    class="step2-inputs input-field"
+                    className="step2-inputs input-field"
                     placeholder=""
                   />
                 </div>
