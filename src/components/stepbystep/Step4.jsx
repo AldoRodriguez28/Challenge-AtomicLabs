@@ -85,7 +85,7 @@ function Step4() {
                 </p>
               </div>
               <div className="step21-body ">
-                <div class="input-icons inner-addon right-addon">
+                <div className="input-icons inner-addon right-addon">
                   <p> </p>
                   <label className="checkbox4">
                     <input type="checkbox" />
@@ -101,7 +101,7 @@ function Step4() {
           </div>
         </div>
         <div className="step2-btns">
-          <i class="icon4 fas fa-lock"></i>
+          <i className="icon4 fas fa-lock"></i>
           <Link to="/FinalStep">
             <button onClick={handleNext}>Enviar</button>
           </Link>
